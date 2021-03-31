@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Syne+Mono&display=swap');
 @import 'variables';
 
 body {
   background-color: $color-dark-1;
   color: $color-light;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Syne Mono', monospace;
+  color: $color-vivid;
 }
