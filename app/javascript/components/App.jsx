@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Routes from '../routes/Index';
 
-const App = () => (
-  <div>This is the App component</div>
-)
+const App = () => <Fragment>{Routes}</Fragment>
 
 export default App;
