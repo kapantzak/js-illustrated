@@ -10,4 +10,4 @@ export default (
       <Route path="/about" exact component={About} />
     </Switch>
   </BrowserRouter>
-)
+);
