@@ -1,0 +1,15 @@
+@import 'variables.scss';
+
+body {
+  background-color: $color-white;
+  color: $color-dark-1;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: $color-dark-1;
+}
